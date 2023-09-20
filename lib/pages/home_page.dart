@@ -13,6 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   String userInput = '';
   String result = '0';
+  String userNumber = '0';
   List buttonsList = [
     'C',
     '(',
